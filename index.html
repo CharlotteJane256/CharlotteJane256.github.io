@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assimilate</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <script src="LoginJs.js"></script>
+
+</head>
+ 
+
+
+<div class="container">
+<body>
+
+  <div class="nav">
+<ul>
+<img src="logo.png">
+
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="AboutContact.html">About</a></li>
+  <li><a href="AboutContact.html#Cont">Contact us</a></li>
+
+</ul>
+  </div>
+
+
+<div class="Laptop">
+    <img src="Laptop.jpg">
+</div>
+
+
+
+<div class="navbar">
+   <a href="AboutContact.html">About</a>
+    <a href="AboutContact.html#Cont">Contact Us</a>
+</div>
+
+
+
+
+<div class="LSButtons">
+  <a href="Signup.html"><button class="button button1"> Signup</button></a>
+
+  <button class="button button1" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+</div>
+
+
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    
+    </div>
+
+    <div class="containerb">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+         
+       <a href="Newsfeed.html"><button type="button" >Login</button></a>
+
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="containera" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+
+
+
+</body>
+
+
+
+
+</html>

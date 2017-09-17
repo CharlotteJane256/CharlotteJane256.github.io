@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assimilate</title>
+  <link rel="stylesheet" type="text/css" href="ProfileC.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div class="ProfilePic">
+	<img src="Avatar.jpg">
+</div>
+
+
+<div class="navbar">
+<ul>
+
+   <li><a href="Settings.html">Settings</a></li>
+     <li><a href="Profile.html">Profile</a></li>
+
+  
+
+  <li><a href="Newsfeed.html">Newsfeed</a></li>
+
+
+<div class="CreatePost">
+     <li><a><button id="myBtn">Create Post</button></a></li>
+ </div>
+ 
+<div class="ClickLogo">
+ <a href="Newsfeed.html"> <img src="logothin.png"></a>
+ </div>
+
+
+</ul>
+
+</div>
+
+<div class="navb">
+
+
+    <a href="AboutContact.html">About</a>
+    <a href="AboutContact.html#Cont">Contact Us</a>
+</div>
+
+
+</body>
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+
+      Text<img src="TextIcon.png">
+      Image<img src="ImageIcon.png">
+      Video<img src="VideoIcon.png">
+      Sound<img src="SoundIcon.png">
+      Link<img src="LinkIcon.png">
+
+    </div>
+    <div class="modal-body">
+      <p>Write...</p>
+    </div>
+    <div class="modal-footer">
+      <button id="myBtn">Select medias</button>
+      <img src="Networks.jpg">
+    </div>
+  </div>
+
+</div>
+
+
+	<div class="container">
+  <div class="griding">
+
+  <img class="border-right" src="PostImag2.jpg" alt="" />
+  <img class="border-right" src="PostImag2.jpg" alt="" />
+  <img class="border-right" src="PostImag2.jpg" alt="" />
+  <img class="border-right" src="PostImag2.jpg" alt="" />
+   <img class="border-right" src="PostImag2.jpg" alt="" />
+   <img class="border-right" src="PostImag2.jpg" alt="" />
+   <img class="border-right" src="PostImag2.jpg" alt="" />
+    <img class="border-right" src="PostImag2.jpg" alt="" />
+   <img class="border-right" src="PostImag2.jpg" alt="" />
+   <img class="border-right" src="PostImag2.jpg" alt="" />
+   <img class="border-right" src="PostImag2.jpg" alt="" />
+   <img class="border-right" src="PostImag2.jpg" alt="" />
+    <img class="border-right" src="PostImag2.jpg" alt="" />
+    <img class="border-right" src="PostImag2.jpg" alt="" />
+    <img class="border-right" src="PostImag2.jpg" alt="" />
+    <img class="border-right" src="PostImag2.jpg" alt="" />
+
+</div>
+</div>
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+</html>

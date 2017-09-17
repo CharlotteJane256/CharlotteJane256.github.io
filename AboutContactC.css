@@ -1,0 +1,127 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #dae9f2;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-size: 29px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 20px 20px ;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #5c6775;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #6994ae;
+    color: white;
+}
+
+
+.button {
+    background-color: #5c6775;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    left: 40%;
+
+}
+
+.button1 {border-radius: 8px; 
+    }
+
+.LSButtons{
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 20%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.textt {
+	float: right;
+	padding-left: 40%;
+	padding-right: 10%;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 15px;
+}
+
+input[type=submit] {
+    background-color: #5c6775;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #56aeb0;
+}
+
+.cont {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}

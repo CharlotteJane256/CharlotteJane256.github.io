@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+li {
+    display: inline;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #e0f0f1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 38px;
+}
+.CreatePost {
+  float: left;
+}
+
+.ClickLogo {
+  float: left;
+  padding-left: 850px;
+}
+
+
+
+.navb {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+}
+
+.navb a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5c6775;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 10px;
+
+}
+
+.modal-body {
+  padding: 2px 16px;
+  font-family: 'Lato', sans-serif;
+  height:700px;
+
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5c6775;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.border-right {
+    float: right;
+    padding: 10px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    background-color: #f9f9f9;
+    padding: 15px;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.Set {
+  padding-top: 7%;
+  font-family: 'Lato', sans-serif;
+  padding-left: 30%;
+  font-size: 25px;
+
+
+}
+
+#text {
+  font-size: 20px;
+}
+
+#myBtn {
+   background-color: #87c6c7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Lato', sans-serif;
+}
+#myBtn {
+   background-color: #87c6c7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Lato', sans-serif;
+}
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 15px;
+}
